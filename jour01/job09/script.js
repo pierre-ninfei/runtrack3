@@ -24,6 +24,9 @@ function tri(numbers, order){
 		    	}
 	    	}
 	    }
+	    else{
+	    	console.log("Veuillez entrer asc ou desc uniquement")
+	    }
   	}
   	for( x = 0; x < numbers.length; x++){
   		console.log(numbers[x])

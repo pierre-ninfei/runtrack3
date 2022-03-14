@@ -25,6 +25,9 @@ function sommenombrespremiers(num1, num2){
 		const z = num1 + num2
 		console.log(z)
 	}
+	else{
+		return "false"
+	}
 }
 
 const x = parseInt(prompt("Entrez un nombre plus grand que 1"))
